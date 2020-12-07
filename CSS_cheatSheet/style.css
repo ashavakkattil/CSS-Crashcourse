@@ -1,3 +1,4 @@
+/* Global Classes Begin */
 * {
   padding: 0px;
   margin: 0px;
@@ -35,6 +36,10 @@ a:active {
 .button:hover {
   background-color: red;
 }
+
+/* Global Classes End */
+
+
 .box-1 {
   background-color: #333;
   color: white;
@@ -126,3 +131,12 @@ a:active {
   top: 150px;
   width: 50px;
 }
+.my-list li:nth-child(odd) {
+  background: yellow;
+}
+.my-list li:nth-last-child(3) {
+  background: green;
+}
+.my-list li:first-child {
+    background: red;
+  }
