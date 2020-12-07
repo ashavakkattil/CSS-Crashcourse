@@ -1,0 +1,97 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #f4f4f4;
+  font: normal 17px arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+}
+/* a:visited {
+  color: yellowgreen;
+} */
+a:active {
+  color: green;
+}
+.container {
+  margin: auto;
+  width: 92%;
+}
+.button {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  width: 200px;
+}
+.button:hover {
+  background-color: red;
+}
+.box-1 {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: yellowgreen 5px solid;
+  margin: 20px 0px;
+}
+.box-1 h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: wavy;
+  letter-spacing: 0.2em;
+  word-spacing: 0.2em;
+  text-transform: capitalize;
+}
+.box-1 p {
+  margin: 5px 0px;
+}
+.box-2 {
+  border: 5px green dashed;
+  padding: 10px 20px;
+  margin: 20px 0px;
+}
+.categories {
+  margin: 20px 0px;
+  padding: 10px;
+  border: 2px gray solid;
+  border-radius: 20px;
+}
+.categories h2 {
+  text-transform: capitalize;
+  text-align: center;
+}
+.categories ul {
+  padding: 10px 20px;
+  list-style: url("./images/check.png");
+}
+.categories li {
+  /* list-style: square; */
+  border-bottom: 1px dashed gray;
+  padding-bottom: 5px;
+}
+.categories a {
+  text-transform: capitalize;
+}
+.my-form {
+  border: 2px gray solid;
+  padding: 15px;
+}
+.my-form .form-group {
+  padding-bottom: 10px;
+  margin: 0px 10px;
+}
+.my-form .form-group label {
+  display: block;
+}
+.my-form .form-group input[type="text"],
+.my-form .form-group input[type="email"],
+.my-form .form-group textarea {
+  width: 100%;
+  padding: 8px 2px;
+}
