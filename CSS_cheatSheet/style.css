@@ -95,3 +95,11 @@ a:active {
   width: 100%;
   padding: 8px 2px;
 }
+.float-box {
+  margin: 20px 2px;
+  float: left;
+  width: 33%;
+  padding: 10px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
