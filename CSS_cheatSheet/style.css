@@ -19,6 +19,9 @@ a:hover {
 a:active {
   color: green;
 }
+.clr {
+  clear: both;
+}
 .container {
   margin: auto;
   width: 92%;
@@ -96,10 +99,27 @@ a:active {
   padding: 8px 2px;
 }
 .float-box {
-  margin: 20px 2px;
+  margin: 20px 0px;
   float: left;
   width: 33%;
   padding: 10px;
   border: 1px solid gray;
   box-sizing: border-box;
+}
+.p-box {
+  height: 500px;
+  width: 600px;
+  border: 1px solid black;
+  margin-bottom: 50px;
+  position: relative;
+}
+.p-head{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+}
+.fixed{
+    position: fixed;
+    top: 150px;
+    width: 50px;
 }
